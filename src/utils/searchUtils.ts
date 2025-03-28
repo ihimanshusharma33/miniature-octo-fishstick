@@ -1,4 +1,4 @@
-// Trie Node implementation for efficient search
+// Trie Node implementation for efficient search of words with a given prefix
 class TrieNode {
   children: Map<string, TrieNode>;
   isEndOfWord: boolean;
